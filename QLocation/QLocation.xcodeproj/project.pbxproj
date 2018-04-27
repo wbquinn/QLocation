@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3A87BCF2093497A005C896F /* stylised q.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A87BCE2093497A005C896F /* stylised q.png */; };
+		D3A87BD12093500C005C896F /* Arrow_Blue.svg in Resources */ = {isa = PBXBuildFile; fileRef = D3A87BD02093500C005C896F /* Arrow_Blue.svg */; };
+		D3A87BD320935068005C896F /* Arrow_Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A87BD220935068005C896F /* Arrow_Blue.png */; };
 		D3B4A00320933DF1005317A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B4A00220933DF1005317A9 /* AppDelegate.swift */; };
 		D3B4A00520933DF1005317A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B4A00420933DF1005317A9 /* ViewController.swift */; };
 		D3B4A00820933DF1005317A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B4A00620933DF1005317A9 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D3A87BCE2093497A005C896F /* stylised q.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stylised q.png"; sourceTree = "<group>"; };
+		D3A87BD02093500C005C896F /* Arrow_Blue.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Arrow_Blue.svg; sourceTree = "<group>"; };
+		D3A87BD220935068005C896F /* Arrow_Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow_Blue.png; sourceTree = "<group>"; };
 		D3B49FFF20933DF1005317A9 /* QLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B4A00220933DF1005317A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3B4A00420933DF1005317A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,9 +80,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3A87BCC209348FB005C896F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D3A87BD220935068005C896F /* Arrow_Blue.png */,
+				D3A87BD02093500C005C896F /* Arrow_Blue.svg */,
+				D3A87BCE2093497A005C896F /* stylised q.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		D3B49FF620933DF1005317A9 = {
 			isa = PBXGroup;
 			children = (
+				D3A87BCC209348FB005C896F /* images */,
 				D3B4A00120933DF1005317A9 /* QLocation */,
 				D3B4A01620933DF2005317A9 /* QLocationTests */,
 				D3B4A02120933DF2005317A9 /* QLocationUITests */,
@@ -233,8 +250,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3B4A00D20933DF1005317A9 /* LaunchScreen.storyboard in Resources */,
+				D3A87BD320935068005C896F /* Arrow_Blue.png in Resources */,
 				D3B4A00A20933DF1005317A9 /* Assets.xcassets in Resources */,
+				D3A87BD12093500C005C896F /* Arrow_Blue.svg in Resources */,
 				D3B4A00820933DF1005317A9 /* Main.storyboard in Resources */,
+				D3A87BCF2093497A005C896F /* stylised q.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
