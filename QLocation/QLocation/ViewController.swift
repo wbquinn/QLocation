@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import os
 
 class ViewController: UIViewController {
 
+
+    @IBOutlet weak var locationTimestamp: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let customLog = OSLog(subsystem: "eu.quinns.qlocation.plist", category: "debugging")
+ os_log("This is info that may be helpful during development or debugging.", log: customLog, type: .debug)
+
+        locationTimestamp.text = "now";
     }
 
     override func didReceiveMemoryWarning() {
